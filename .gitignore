@@ -25,3 +25,4 @@ tools/*.png
 tools/csi_data_log.txt
 tools/test*.csv
 tools/csi_data.csv
+tools/_sc.csv
