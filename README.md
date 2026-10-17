@@ -125,7 +125,7 @@ CSI_DATA,0,AA:BB:CC:DD:EE:FF,-30,11,...,13,...,67,0,128,1,"[67,48,4,0,...]"
 
 ## 지금까지 결과 (feasibility: **성립**)
 
-- 샘플레이트 ~20Hz, 유효 subcarrier 52개(가운데 27~37은 null/guard).
+- 샘플레이트 약 20Hz, 유효 subcarrier 52개(가운데 27-37은 null/guard).
 - 전체 시간변동: empty **1.16** vs occupied **2.29** (약 2배).
 - 모든 활성 subcarrier에서 occupied > empty, 교차 없음. 저대역·고대역 ratio 모두 ~2.0.
 - **결론: 빈방 vs 걷는 사람 구분 명확. 단순 threshold ~ 작은 모델로 충분.**
